@@ -8,15 +8,7 @@
 
 // Output:
 // - Print a single line containing all arrival times in chronological order, separated by spaces
-// Example:
-// Input:
-// 5
-// 10 20 30 50 70
-// 4
-// 15 25 40 60
 
-// Output:
-// 10 15 20 25 30 40 50 60 70
 #include <stdio.h>
 
 void mergeLogs(int p, int log1[], int q, int log2[]) {
