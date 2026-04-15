@@ -26,7 +26,6 @@ int main() {
 
     for (int i = 0; s[i] != '\0'; i++)
         freq[s[i] - 'a']++;
-
     for (int i = 0; s[i] != '\0'; i++) {
         if (freq[s[i] - 'a'] == 1) {
             printf("%c", s[i]);
@@ -36,4 +35,3 @@ int main() {
 
     printf("$");
     return 0;
-}
